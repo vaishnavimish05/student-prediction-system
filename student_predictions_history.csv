@@ -1,0 +1,12 @@
+timestamp,name,email,mathMarks,scienceMarks,englishMarks,attendance,studyHours,assignments,extracurricular,failures,grade,dropoutRisk,passOrFail,placementProbability,riskScore
+1775413551440,adasda,sda@gmail.com,54.0,8.0,56.0,75.0,3.0,8,0,0,F,MEDIUM,FAIL,0.31,51.5
+1775413920558,hi,hi@gmail.com,66.0,99.0,99.0,90.9,3.0,8,0,0,A,LOW,PASS,0.75,74.9
+1775413976947,wewq,ewqe@gmail.com,76.0,87.0,87.0,90.4,3.0,8,0,0,A,LOW,PASS,0.75,72.9
+1775414022943,wewq,ewqe@gmail.com,76.0,87.0,87.0,90.4,3.0,8,0,0,A,LOW,PASS,0.74,72.9
+1775414034541,wewq,ewqe@gmail.com,76.0,87.0,87.0,19.7,3.0,8,0,0,B,MEDIUM,FAIL,0.53,55.3
+1775414041238,wewq,ewqe@gmail.com,76.0,87.0,87.0,19.7,3.0,8,0,0,B,LOW,FAIL,0.53,55.3
+1775415125463,dasdas,dasd@gmail.com,33.0,21.0,34.0,75.0,3.0,8,0,0,F,MEDIUM,FAIL,0.28,47.5
+1775415155214,dasdas,dasd@gmail.com,33.0,21.0,34.0,75.0,3.0,8,0,0,F,LOW,FAIL,0.28,47.5
+1775743671754,Asma Khan,asma@gmail.com,78.0,67.0,89.0,77.9,3.5,8,1,0,B,LOW,PASS,0.66,69.0
+1775789076379,Kavya Mishra,kavya@gmail.com,89.0,67.0,78.0,78.0,3.6,8,1,0,B,LOW,PASS,0.66,69.2
+1776262672866,Asma Khan,asma@gmail.com,98.0,87.0,67.0,77.0,3.3,8,1,0,A,LOW,PASS,0.68,70.9

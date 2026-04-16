@@ -1,0 +1,111 @@
+Manifest-Version: 1.0
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: tomcat-embed-jasper
+Bundle-SymbolicName: org.apache.tomcat-embed-jasper
+Bundle-Version: 10.1.16
+Export-Package: jakarta.servlet.jsp;version="3.1";uses:="jakarta.el,ja
+ karta.servlet,jakarta.servlet.http,jakarta.servlet.jsp.el,jakarta.ser
+ vlet.jsp.tagext",jakarta.servlet.jsp.el;version="3.1";uses:="jakarta.
+ el",jakarta.servlet.jsp.resources;version="3.1",jakarta.servlet.jsp.t
+ agext;version="3.1";uses:="jakarta.servlet.jsp",org.apache.jasper;use
+ s:="jakarta.servlet,jakarta.servlet.jsp.tagext,org.apache.jasper.comp
+ iler,org.apache.jasper.servlet,org.apache.tomcat,org.apache.tomcat.ut
+ il.descriptor.tld,org.apache.tools.ant";version="10.1.16",org.apache.
+ jasper.compiler;uses:="jakarta.el,jakarta.servlet,jakarta.servlet.jsp
+ .tagext,org.apache.jasper,org.apache.jasper.compiler.tagplugin,org.ap
+ ache.jasper.servlet,org.apache.jasper.util,org.apache.tomcat,org.apac
+ he.tomcat.util.descriptor.tld,org.apache.tools.ant,org.xml.sax";versi
+ on="10.1.16",org.apache.jasper.compiler.tagplugin;version="10.1.16",o
+ rg.apache.jasper.el;uses:="jakarta.el,jakarta.servlet.jsp.el";version
+ ="10.1.16",org.apache.jasper.optimizations;uses:="org.apache.jasper,o
+ rg.apache.jasper.compiler";version="10.1.16",org.apache.jasper.runtim
+ e;uses:="jakarta.el,jakarta.servlet,jakarta.servlet.http,jakarta.serv
+ let.jsp,jakarta.servlet.jsp.el,jakarta.servlet.jsp.tagext,org.apache.
+ jasper,org.apache.jasper.el,org.apache.tomcat";version="10.1.16",org.
+ apache.jasper.security;version="10.1.16",org.apache.jasper.servlet;us
+ es:="jakarta.servlet,jakarta.servlet.descriptor,jakarta.servlet.http,
+ jakarta.servlet.jsp.tagext,org.apache.jasper,org.apache.jasper.compil
+ er,org.apache.jasper.util,org.apache.tomcat,org.apache.tomcat.util.de
+ scriptor.tld,org.xml.sax";version="10.1.16",org.apache.jasper.tagplug
+ ins.jstl;uses:="jakarta.servlet,jakarta.servlet.http,jakarta.servlet.
+ jsp";version="10.1.16",org.apache.jasper.tagplugins.jstl.core;uses:="
+ jakarta.servlet.jsp,org.apache.jasper.compiler.tagplugin";version="10
+ .1.16",org.apache.jasper.util;uses:="org.xml.sax,org.xml.sax.helpers"
+ ;version="10.1.16",org.apache.tomcat.util.descriptor.tld;uses:="jakar
+ ta.servlet.jsp.tagext,org.apache.tomcat,org.apache.tomcat.util.digest
+ er,org.xml.sax";version="10.1.16"
+Implementation-Title: Apache Tomcat
+Implementation-Vendor: Apache Software Foundation
+Implementation-Version: 10.1.16
+Import-Package: jakarta.el,jakarta.servlet,jakarta.servlet.descriptor,
+ jakarta.servlet.http,jakarta.servlet.jsp;version="[3.1,4)",jakarta.se
+ rvlet.jsp.el;version="[3.1,4)",jakarta.servlet.jsp.tagext;version="[3
+ .1,4)",java.beans,java.io,java.lang,java.lang.invoke,java.lang.reflec
+ t,java.math,java.net,java.nio.charset,java.nio.file,java.nio.file.att
+ ribute,java.security,java.security.cert,java.text,java.util,java.util
+ .concurrent,java.util.concurrent.atomic,java.util.function,java.util.
+ jar,java.util.regex,javax.xml.parsers,javax.xml.stream,org.apache.jas
+ per,org.apache.jasper.compiler,org.apache.jasper.compiler.tagplugin,o
+ rg.apache.jasper.el,org.apache.jasper.runtime,org.apache.jasper.secur
+ ity,org.apache.jasper.servlet,org.apache.jasper.tagplugins.jstl,org.a
+ pache.jasper.util,org.apache.juli.logging;version="[10.1,11)",org.apa
+ che.tomcat;version="[10.1,11)",org.apache.tomcat.util.descriptor;vers
+ ion="[10.1,11)",org.apache.tomcat.util.descriptor.tagplugin;version="
+ [10.1,11)",org.apache.tomcat.util.descriptor.tld,org.apache.tomcat.ut
+ il.descriptor.web;version="[10.1,11)",org.apache.tomcat.util.digester
+ ;version="[10.1,11)",org.apache.tomcat.util.res;version="[10.1,11)",o
+ rg.apache.tomcat.util.scan;version="[10.1,11)",org.apache.tomcat.util
+ .security;version="[10.1,11)",org.apache.tools.ant,org.apache.tools.a
+ nt.taskdefs,org.apache.tools.ant.types,org.apache.tools.ant.util,org.
+ eclipse.jdt.core.compiler,org.eclipse.jdt.internal.compiler,org.eclip
+ se.jdt.internal.compiler.classfmt,org.eclipse.jdt.internal.compiler.e
+ nv,org.eclipse.jdt.internal.compiler.impl,org.eclipse.jdt.internal.co
+ mpiler.problem,org.xml.sax,org.xml.sax.ext,org.xml.sax.helpers
+Private-Package: org.apache.jasper.resources
+Provide-Capability: osgi.contract;osgi.contract=JavaJSP;version:Versio
+ n="3.1";uses:="jakarta.servlet.jsp,jakarta.servlet.jsp.el,jakarta.ser
+ vlet.jsp.resources,jakarta.servlet.jsp.tagext"
+Require-Capability: osgi.contract;osgi.contract=JakartaExpressionLangu
+ age;filter:="(&(osgi.contract=JakartaExpressionLanguage)(version=5.0.
+ 0))",osgi.contract;osgi.contract=JavaServlet;filter:="(&(osgi.contrac
+ t=JavaServlet)(version=6.0.0))",osgi.ee;filter:="(&(osgi.ee=JavaSE)(v
+ ersion=11))"
+Specification-Title: Apache Tomcat
+Specification-Vendor: Apache Software Foundation
+Specification-Version: 10.1
+X-Compile-Source-JDK: 11
+X-Compile-Target-JDK: 11
+
+Name: jakarta/servlet/jsp/
+Implementation-Title: jakarta.servlet.jsp
+Implementation-Vendor: Apache Software Foundation
+Implementation-Version: 3.1
+Specification-Title: Jakarta Server Pages
+Specification-Vendor: Eclipse Foundation
+Specification-Version: 3.1
+
+Name: jakarta/servlet/jsp/el/
+Implementation-Title: jakarta.servlet.jsp
+Implementation-Vendor: Apache Software Foundation
+Implementation-Version: 3.1
+Specification-Title: Jakarta Server Pages
+Specification-Vendor: Eclipse Foundation
+Specification-Version: 3.1
+
+Name: jakarta/servlet/jsp/resources/
+Implementation-Title: jakarta.servlet.jsp
+Implementation-Vendor: Apache Software Foundation
+Implementation-Version: 3.1
+Specification-Title: Jakarta Server Pages
+Specification-Vendor: Eclipse Foundation
+Specification-Version: 3.1
+
+Name: jakarta/servlet/jsp/tagext/
+Implementation-Title: jakarta.servlet.jsp
+Implementation-Vendor: Apache Software Foundation
+Implementation-Version: 3.1
+Specification-Title: Jakarta Server Pages
+Specification-Vendor: Eclipse Foundation
+Specification-Version: 3.1
+
